@@ -2,14 +2,19 @@ import React from "react";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
 import NavBar from "./components/NavBar";
+import Hero from "./sections/Hero";
+import ReactLenis from "lenis/react";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
   return (
-    <main>
-      <NavBar />
-    </main>
+    <ReactLenis root>
+      <main>
+        <NavBar />
+        <Hero />
+      </main>
+    </ReactLenis>
   );
 };
 export default App;

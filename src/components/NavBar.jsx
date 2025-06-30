@@ -25,7 +25,7 @@ const NavBar = () => {
   });
   return (
     <nav>
-      <div className="">
+      <div className="flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 px-10 container mx-auto">
         <a href="#home" className="flex items-center gap-2">
           <p>VelvetPour</p>
         </a>
