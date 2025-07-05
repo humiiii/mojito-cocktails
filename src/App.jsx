@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./sections/Hero";
 import ReactLenis from "lenis/react";
 import Cocktails from "./sections/Cocktails";
+import About from "./sections/About";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -15,6 +16,7 @@ const App = () => {
         <NavBar />
         <Hero />
         <Cocktails/>
+        <About/>
       </main>
     </ReactLenis>
   );
