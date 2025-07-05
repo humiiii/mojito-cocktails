@@ -7,6 +7,7 @@ import ReactLenis from "lenis/react";
 import Cocktails from "./sections/Cocktails";
 import About from "./sections/About";
 import Art from "./sections/Art";
+import Menu from "./sections/Menu";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -19,6 +20,7 @@ const App = () => {
         <Cocktails/>
         <About/>
         <Art/>
+        <Menu/>
       </main>
     </ReactLenis>
   );
